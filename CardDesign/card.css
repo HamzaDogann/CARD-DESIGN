@@ -1,0 +1,111 @@
+
+.divinfo{
+   
+    background-color: rgb(255, 253, 253);
+    width: 300px;
+    height: 0px;
+    transition-duration: 0.6s;
+    display: none;
+    border-top: 0px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    overflow: scroll;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 0px 0px 9px 9px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    
+} 
+
+.divinfo::-webkit-scrollbar{
+    background: rgba(255, 255, 255, 0);
+    width: 7px;
+    border-radius: 2px;
+    /* BU ÖZELLİK SCROLL RENGİNİ BELİRLER */
+    scroll-behavior: smooth;
+    /* scrool-behavior özelliği aşağıda olan yere giderken yumuşak olarak geciş yapar  */
+}
+.divinfo::-webkit-scrollbar-corner{
+    background-color: transparent;
+    /* BU ÖZELLİK SCROLL KÖŞESİNİ BELİRLER */
+}
+.divinfo::-webkit-scrollbar-thumb{
+    background: rgba(35, 35, 35, 0.76);
+    width: 10px;
+    height: 8px;
+    border-radius: 2px;
+    /* BU ÖZELLİK SCROLL CUBUGNU BELİRLER */
+    
+}
+
+
+.div2{
+    width: 300px;
+    height: 250px;
+    border-top: 0px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    box-shadow: 0px 5px 10px black;
+    border-radius: 8px 8px 8px 8px;
+    background-image: url(photo1.jpg);
+    background-repeat: no-repeat, repeat;
+    background-position: 89%;
+    background-size: cover;
+
+
+}
+
+#asagibtn{
+    
+    width: 183px;
+    height: 56px;
+    padding-top: 190px;
+    padding-left: 120px;
+    font-size: 60px;
+    color: white;
+    transition-duration: 0.5s;
+    
+}
+
+
+#yukaribtn{
+    
+    display: none;
+    margin-left: 125px;
+    font-size: 50px;
+    margin-top: -60px;
+    color: white;
+   transition: 0.4s;
+}
+
+#yukaribtn:hover{
+    
+    display: none;
+    margin-left: 123px;
+    font-size: 50px;
+    margin-top: -70px;
+    cursor: pointer;
+    font-size: 55px;
+}
+
+#asagibtn:hover {
+    font-size: 70px;
+    padding-left: 117px;
+    padding-top: 193px;
+    cursor: pointer;
+    opacity: 1;
+    background: rgba(23, 23, 23, 0.466);
+    
+    
+}
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 300,
+  'GRAD' 0,
+  'opsz' 0
+}
